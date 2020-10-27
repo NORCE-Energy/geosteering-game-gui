@@ -1,0 +1,33 @@
+.alternate{
+  margin-top:4ex;
+  /* border-spacing: 10px; */
+  border-collapse: separate;
+  text-align: right;
+}
+.alternate tr:nth-child(2n) {
+    background-color: silver;
+  }
+  
+  .alternate tr:nth-child(2n):hover, .alternate tr:hover {
+    background-color: grey;
+  }
+  
+  .alternate tr {
+    background-color: white;
+  }
+
+  .alternate th {
+    background-color: #a6cee3;
+  }
+  
+  .alternate td {
+    padding: 10px;
+  }
+
+  .alternate th {
+    padding: 10px;
+  }
+
+  .tduser {
+    text-align: left;
+  }

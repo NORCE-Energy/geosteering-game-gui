@@ -1,0 +1,239 @@
+:root{
+    --clr-primary: rgb(51, 122, 183);
+    --clr-bg-modal: rgb(255, 255, 255);
+    --toast-movement: 20px;
+  }
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+body {
+    touch-action: manipulation;
+}
+/* Override bootsrap btn outline that shows up in chrome */
+btn:focus,
+.btn:focus{
+    outline:none;
+}
+/* Remove ugly focus firefox adds */
+::-moz-focus-inner,
+::-moz-focus-outer{
+    border:0;
+}
+
+/* COPY CLIPBOARD NOTICE */
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #333; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    top: var(--toast-movement); /* 20px from the bottom */
+  }
+  
+  /* Show the snackbar when clicking on a button (class added with JavaScript) */
+  #snackbar.show {
+    visibility: visible; /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  /* Animations to fade the snackbar in and out */
+  @-webkit-keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: var(--toast-movement); opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: var(--toast-movement); opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {top: var(--toast-movement); opacity: 1;}
+    to {top: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {top: var(--toast-movement); opacity: 1;}
+    to {top: 0; opacity: 0;}
+  }
+/* END COPY CLIPBOARD NOTICE */
+
+/* BUTTONS */
+.copy-btn{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.copy-icon{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+#instructionsModalButton{
+    margin-left: 10px;
+    font-size: 18px;
+}
+/* END BUTTONS */
+
+/* MODAL AND SHARE BUTTONS */
+.share-btn a:visited{
+    color:  #fff;
+}
+
+.share-btn a:hover{
+text-decoration: none;
+color: #fff;
+}
+
+.share-btn :focus{
+color:  #fff;
+text-decoration: underline;
+}
+.copy-btn,
+.resp-sharing-button__link{
+    margin:0.25em!important; 
+}
+.resp-sharing-button__icon{
+    display:flex!important;
+    flex-direction:column;
+    justify-content: center;
+}
+.copy-btn svg{
+    width:1.75rem;
+    height:1.75rem;
+}
+.resp-sharing-button__icon svg{
+    margin-right:0!important;
+    height:1.5rem!important;
+}
+
+#endGameModal .modal-footer{
+    display:flex;
+}
+.modal-footer .left{
+    width:50%;
+    display:flex;
+    align-items:center;
+}
+.modal-footer .right{
+    width:50%;
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+    .modal-open #endGameModal{
+        display:flex!important;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .modal-footer {
+        flex-direction: column; /* IF CHANGED TO COLUMN-REVERSE, MOVE MARGIN-BOTTOM FROM .RIGHT TO .LEFT */ 
+        align-items: center;
+    }
+    .modal-footer .left{
+        width:100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .modal-footer .right{
+        width:100%;
+        justify-content: center;
+    }
+  }
+/* END MODAL AND SHARE BUTTONS*/
+
+/* CAROUSEL */
+.carousel-inner {
+    margin-bottom:50px;
+}
+.carousel-inner > .item{
+    text-align: center;
+    text-align: -moz-center;
+    transition-duration: 0.35s;
+    -moz-transition-duration: 0.35s;
+}
+.carousel-inner > .item > img{
+    max-height:80vh;
+}
+.carousel-control{
+    opacity: 0;
+    margin-bottom:-50px;
+}
+.carousel-control:focus,
+.carousel-control:hover{
+    opacity: 1;
+    box-shadow: none;
+}
+.carousel-indicators {
+    bottom:-50px;
+}
+.carousel-indicators li{
+    background-color: rgba(0,0,0,0);
+    border: 2px solid var(--clr-primary);
+}
+.carousel-indicators li.active{
+    background-color: var(--clr-primary);
+}
+/* END CAROUSEL */
+
+/*  SLIDER */
+/* The slider itself */
+input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+    margin-top: 15px;
+    height: 10px !important;
+    border-radius: 5px;
+    background: #606060;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+input[type=range]:focus,
+input[type=range]:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle */
+    input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        /*background: #ff5722;*/
+        background: #fee090;
+        /*background: rgb(46, 46, 46);*/
+        cursor: pointer;
+    }
+
+    input[type=range]::-moz-range-thumb {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        /*background: #ff5722;*/
+        background: #fee090;
+        /*background: rgb(46, 46, 46);*/
+        cursor: pointer;
+    }
+
