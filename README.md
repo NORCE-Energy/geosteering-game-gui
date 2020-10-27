@@ -18,7 +18,7 @@ To request help with development of bots, please create an issue.
 
 ## Citing
 
-Cite as [arXiv:2005.08916 submitted to Journal of Petroleum Science and Engeneering](https://arxiv.org/abs/2005.08916)
+Cite as [arXiv:2005.08916](https://arxiv.org/abs/2005.08916)
 ```
 @article{alyaev2020man,
   title={Man vs machine: an experimental study of geosteering decision skills},
