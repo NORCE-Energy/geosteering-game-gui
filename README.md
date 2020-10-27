@@ -27,3 +27,6 @@ Cite as [arXiv:2005.08916](https://arxiv.org/abs/2005.08916)
   year={2020}
 }
 ```
+
+## Original contributers
+Sergey Alyaev (@alin256), Morten Bendiksen, Andrew Holsaeter, Sofija Ivanova 
