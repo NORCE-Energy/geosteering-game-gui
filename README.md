@@ -29,4 +29,4 @@ Cite as [arXiv:2005.08916](https://arxiv.org/abs/2005.08916)
 ```
 
 ## Original contributers
-Sergey Alyaev (@alin256), Morten Bendiksen, Andrew Holsaeter, Sofija Ivanova 
+Sergey Alyaev ([@alin256](https://github.com/alin256)), Morten Bendiksen ([@mortalisk](https://github.com/mortalisk)), Andrew Holsaeter ([@holsaeter](https://github.com/holsaeter)), Sofija Ivanova ([@sofiva](https://github.com/sofiva))
