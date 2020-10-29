@@ -1,4 +1,4 @@
-# An API and a start-up package for creating bots for GEOSTEERING competion the NORCE way
+# API and GUI for GEOSTEERING competition the NORCE way
 
 ## To create your own bot
 
