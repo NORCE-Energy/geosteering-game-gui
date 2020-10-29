@@ -1,4 +1,4 @@
-# API and GUI for GEOSTEERING competition the NORCE way
+# API and GUI for GEOSTEERING benchmark the NORCE way
 
 ## To create your own bot
 
