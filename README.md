@@ -1,5 +1,9 @@
 # API and GUI for GEOSTEERING benchmark the NORCE way
 
+## The web platform is currently running 
+
+[Link to web platform](http://game.geosteering.no)
+
 ## To create your own bot
 
 To create your own bot modify and run simple_client.py which shows the uses of essential features of the API.
