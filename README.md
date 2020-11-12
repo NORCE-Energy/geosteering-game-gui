@@ -20,7 +20,9 @@ It creates a copy of the web interface (GUI) of the competition at 127.0.0.1:900
 
 To request help with development of bots, please create an issue.
 
-## Citing
+## Citing and more details
+
+Our latest paper describes the GUI and API of the competition in more details.
 
 Cite as [arXiv:2011.00733](https://arxiv.org/abs/2011.00733)
 ```
