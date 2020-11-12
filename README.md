@@ -22,13 +22,15 @@ To request help with development of bots, please create an issue.
 
 ## Citing
 
-Cite as [arXiv:2005.08916](https://arxiv.org/abs/2005.08916)
+Cite as [arXiv:2011.00733](https://arxiv.org/abs/2011.00733)
 ```
-@article{alyaev2020man,
-  title={Man vs machine: an experimental study of geosteering decision skills},
-  author={Alyaev, Sergey and Bratvold, Reidar Brumer and Ivanova, Sofija and Holsaeter, Andrew and Bendiksen, Morten},
-  journal={arXiv preprint arXiv:2005.08916},
-  year={2020}
+@article{alyaev2020interactive,
+      title={An interactive sequential-decision benchmark from geosteering}, 
+      author={Sergey Alyaev and Reidar Brumer Bratvold and Sofija Ivanova and Andrew Holsaeter and Morten Bendiksen},
+      year={2020},
+      eprint={2011.00733},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC}
 }
 ```
 
