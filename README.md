@@ -24,15 +24,19 @@ To request help with development of bots, please create an issue.
 
 Our latest paper describes the GUI and API of the competition in more details.
 
-Cite as [arXiv:2011.00733](https://arxiv.org/abs/2011.00733)
+Cite as [Alyaev et al. (2021)](https://doi.org/10.1016/j.acags.2021.100072)
 ```
-@article{alyaev2020interactive,
-      title={An interactive sequential-decision benchmark from geosteering}, 
-      author={Sergey Alyaev and Reidar Brumer Bratvold and Sofija Ivanova and Andrew Holsaeter and Morten Bendiksen},
-      year={2020},
-      eprint={2011.00733},
-      archivePrefix={arXiv},
-      primaryClass={cs.HC}
+@article{alyaev2021interactive,
+title = {An interactive sequential-decision benchmark from geosteering},
+journal = {Applied Computing and Geosciences},
+volume = {12},
+pages = {100072},
+year = {2021},
+issn = {2590-1974},
+doi = {https://doi.org/10.1016/j.acags.2021.100072},
+url = {https://www.sciencedirect.com/science/article/pii/S2590197421000203},
+author = {Sergey Alyaev and Sofija Ivanova and Andrew Holsaeter and Reidar Brumer Bratvold and Morten Bendiksen},
+keywords = {Interactive benchmark, Sequential geosteering decisions, Uncertainty quantification, Expert decisions, Experimental study, Decision support system}
 }
 ```
 
