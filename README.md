@@ -1,8 +1,10 @@
 # API and GUI for GEOSTEERING benchmark the NORCE way
 
-## The web platform is currently running 
+The web platform is not available, but you can deploy your own version from the open source code.
 
-[Link to web platform](http://game.geosteering.no)
+## Full open-source implementation is now available:
+
+[Repository at geosteering-no](https://github.com/geosteering-no/interactive-geosteering-benchmark)
 
 ## To create your own bot
 
