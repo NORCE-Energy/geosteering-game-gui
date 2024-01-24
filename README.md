@@ -1,6 +1,6 @@
 # API and GUI for GEOSTEERING benchmark the NORCE way
 
-The web platform is not available, but you can deploy your own version from the open source code.
+The web platform is not available, but you can deploy your own version from the open-source code.
 
 ## Full open-source implementation is now available:
 
