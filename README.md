@@ -2,7 +2,7 @@
 
 The web platform is not available, but you can deploy your own version from the open-source code.
 
-## Full open-source implementation is now available:
+## [Full open-source implementation](https://github.com/geosteering-no/interactive-geosteering-benchmark) is now available.
 
 [Repository at geosteering-no](https://github.com/geosteering-no/interactive-geosteering-benchmark)
 
